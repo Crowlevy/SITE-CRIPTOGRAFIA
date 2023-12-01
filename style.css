@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding-bottom: 10px;
+}
+body{
+    font-family: Arial,sans-serif;
+    background-color: rgb(89, 89, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.137);
+    text-align: center;
+    max-width:800px;
+
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    margin: auto;
+    
+}
+output{
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(66, 86, 196);
+    color: white;
+    border-radius: 8px;
+
+}
+.container{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    width: 900px;
+    justify-content: center;
+
+}
+.button-encrypt{
+    padding: 8px 36px;
+    cursor: pointer;
+    background-color: rgb(162, 97, 228);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 0px 40px rgb(158, 39, 226);
+}
+.button-decrypt{
+    padding: 8px 36px;
+    cursor: pointer;
+    background-color: rgb(162, 97, 228);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 0px 40px rgb(158, 39, 226);
+    margin-bottom: 10px;
+}
+.textinho{
+    border-radius: 15px;
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.61);
+    border: none;
+    outline: none;
+    margin: 10px;
+}
+
+.lowercase-text{
+    text-transform: lowercase;
+    }
+
+
